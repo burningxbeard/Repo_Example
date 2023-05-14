@@ -1,0 +1,21 @@
+.container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+    padding: 12px;
+    max-width: 999px;
+}
+.flexbox-item {
+	border-radius: 10px;
+	color: rgb(169, 169, 169);
+    padding: 10px;
+}
+.flexbox-item:nth-child(even) {
+	background-color: var(--dark);
+	color: var(--light);
+}
+.flexbox-item:nth-child(odd) {
+	background-color: var(--light);
+	color: var(--dark);
+}
